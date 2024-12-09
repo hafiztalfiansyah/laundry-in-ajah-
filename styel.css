@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: url('../image/logo.jpeg') no-repeat center center fixed; /* Gambar latar belakang lokal */
+    background: url('../image.png') no-repeat center center fixed; /* Gambar latar belakang lokal */
     background-size: cover; /* Memastikan gambar memenuhi seluruh area */
     color: #0f0f0f;
 }
