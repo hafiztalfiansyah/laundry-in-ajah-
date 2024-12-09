@@ -1,71 +1,74 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laundry-ini ajah!</title>
-    <link rel="stylesheet" href="styles.css">
+    <title> laundry-ini ajah!</title>
+    <link rel="stylesheet" href="styel.css">
 </head>
 <body>
     <header>
-        <h1>Laundry-ini ajah!</h1>
+        <h1>laundry-ini ajah!</h1>
         <nav>
             <ul>
-                <li><a href="#services">Layanan</a></li>
-                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">layanan</a></li>
+                <li><a href="#about">tentang kami</a></li>
                 <li><a href="#order">Pemesanan</a></li>
-                <li><a href="#contact">Kontak</a></li>
+                <li><a href="contact">Kontak</a></li>
             </ul>
         </nav>
     </header>
+
     <section id="hero">
-        <h2>Solusi Laundry Terbaik untuk Anda</h2>
-        <p>Jasa laundry cepat, bersih, dan terpercaya.</p>
-        <a href="#order" class="btn">Pesan Sekarang</a>
-    </section>
-    <section id="services">
-        <h2>Layanan Kami</h2>
-        <div class="service">
-            <h3>Cuci Kering + setrika + parfum </h3>
-            <p>Rp.5000/Kg</p>
-            <p>Layanan cuci satu hari siap .</p>
-        <div class="service">
-            <h3> cuci minilmal 3 </h3>
-            <p> gratis antar jemput max 2km dari lokasi laundry-ini ajah!</p>
-            <p> biaya tambahan dikenakan di atas 2km adalah 5000/0,5 km</p>
-        </div>
-    </section>
-    <section id="about">
-        <h2>Tentang Kami</h2>
-        <p>Kami adalah penyedia layanan laundry yang berkomitmen untuk memberikan pelayanan terbaik kepada pelanggan.</p>
-    </section>
-    <section id="order">
-        <h2>Form Pemesanan</h2>
-        <form action="submit_order.php" method="POST">
-            <label for="name">Nama:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="phone">Telepon:</label>
-            <input type="tel" id="phone" name="phone" required>
-            <label for="service">Layanan:</label>
-            <select id="service" name="service" required>
-                <option value="cuci_kering">Cuci Kering</option>
-            </select>
-            <label for="details">Detail Pakaian:</label>
-            <textarea id="details" name="details" rows="4" required></textarea>
-            <button type="submit">Kirim Pemesanan</button>
-        </form>
+        <h2>solusi laundry terbaik untuk anda</h2>
+        <p>jasa laundry cepat,bersih, dan tercepat</p>
+        <a href="#order" class="btn">pesan sekarang</a>
     </section>
 
-    <section id="contact">
-        <h2>Kontak Kami</h2>
-        <p>Email: laundry-ini ajah!@gmail.com</p>
-        <p>Telepon: 0811-1111-2411</p>
-        <p>Alamat: gg.sarimanah III No.86,BLOK 6,sarijadi,kec.sukasari,kota bandung,jawa barat kode pos.40151</p>
+    <section id="#services">
+        <h2>layanan kami</h2>
+        <div class="service">
+            <h3>cuci kering + setrika + parfum</h3>
+            <p>5000/kg</p>
+            <p>bersih,rapi,dan harum</p>
+        </div>
+         <div class="service">
+            <h3>cuci selimu kecil</h3>
+            <p>15.000</p>
+            <p>bersih,rapi,dan harum</p>
+        </div>
     </section>
-    <footer>
-        <!-- <p>&copy; </p> -->
-    </footer>
+
+    <section id="#about">
+        <h2>tentang kami</h2>
+        <p>Kami adalah penyedia layanan laundry yang berkomitmen untuk memberikan pelayanan terbaik kepada pelanggan dan bertanggung jawab.</p>
+    </section>
+
+   <section id="order">
+  <h2> tempat pemesanan</h2>
+  <p>Selamat datang di bagian pemesanan! Di sini Anda dapat memilih.</p>
+  <form>
+    <label for="name">Nama :</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="Email"> Email:</label>
+    <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+    <label for="phone"> telpon :</label>
+    <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+    
+    <label for="service"> layanan kami yang ada :</label>
+    <select id="service" name="service">
+      <option value="product1">cuci kering,setrika,dan parfum</option>
+      <option value="product1">cuci selimut kecil </option>
+    </select><br><br>
+
+    <label for="details">Detail Pakaian:</label>
+            <textarea id="details" name="details" rows="4" required></textarea>
+            
+    <button type="submit">Pesan Sekarang</button>
+  </form>
+</section>
+
 </body>
 </html>
